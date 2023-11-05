@@ -1,0 +1,29 @@
+{
+  "name": "auditor",
+  "version": "1.0.0",
+  "description": "captures information and visualizes audit logs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "start-dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gauravshankarcan/auditor.git"
+  },
+  "keywords": [
+    "audit",
+    "logs",
+    "usertrace"
+  ],
+  "author": "Gaurav Shankar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gauravshankarcan/auditor/issues"
+  },
+  "homepage": "https://github.com/gauravshankarcan/auditor#readme",
+  "dependencies": {
+    "fastify": "^4.24.3"
+  }
+}
